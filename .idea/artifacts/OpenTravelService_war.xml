@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OpenTravelService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>OpenTravelService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="OpenTravelService.war">
+      <element id="artifact" artifact-name="OpenTravelService:war exploded" />
+    </root>
+  </artifact>
+</component>
